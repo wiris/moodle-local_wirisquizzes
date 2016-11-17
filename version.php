@@ -16,7 +16,7 @@
 
 /**
  * Version details for WIIRIS Quizzes local plugin.
- * This plugin declares all the depeecies on all WIRIS Question types.
+ * This plugin declares all the dependencies on all WIRIS Question types.
  *
  * @package    local
  * @subpackage wirisquizzes
