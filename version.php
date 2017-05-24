@@ -26,17 +26,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2017052200;
+$plugin->version = 2017052400;
 
 $plugin->requires = 2011060313;
 $plugin->maturity = MATURITY_BETA;
 $plugin->component = 'local_wirisquizzes';
 $plugin->dependencies = array(
-    'qtype_wq' => 2017052200,
-    'qtype_essaywiris' => 2017052200,
-    'qtype_matchwiris' => 2017052200,
-    'qtype_multianswerwiris' => 2017052200,
-    'qtype_multichoicewiris' => 2017052200,
-    'qtype_shortanswerwiris' => 2017052200,
-    'qtype_truefalsewiris' => 2017052200
+    'qtype_wq' => 2017052400,
+    'qtype_essaywiris' => 2017052400,
+    'qtype_matchwiris' => 2017052400,
+    'qtype_multianswerwiris' => 2017052400,
+    'qtype_multichoicewiris' => 2017052400,
+    'qtype_shortanswerwiris' => 2017052400,
+    'qtype_truefalsewiris' => 2017052400
 );
