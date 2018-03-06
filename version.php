@@ -16,27 +16,27 @@
 
 /**
  * Version details for WIIRIS Quizzes local plugin.
- * This plugin declares all the dependencies on all WIRIS Question types.
+ * This plugin declares all the dependencies on all Wiris Quizzes question types.
  *
  * @package    local
  * @subpackage wirisquizzes
- * @copyright  Maths for More S.L. <info@wiris.com>
+ * @copyright  WIRIS Europe (Maths for more S.L)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2018020600;
-$plugin->release = '3.61.0.1034';
+$plugin->version = 2018030600;
+$plugin->release = '3.62.0.1035';
 $plugin->requires = 2011060313;
 $plugin->maturity = MATURITY_STABLE;
 $plugin->component = 'local_wirisquizzes';
 $plugin->dependencies = array(
-    'qtype_wq' => 2018020600,
-    'qtype_essaywiris' => 2018020600,
-    'qtype_matchwiris' => 2018020600,
-    'qtype_multianswerwiris' => 2018020600,
-    'qtype_multichoicewiris' => 2018020600,
-    'qtype_shortanswerwiris' => 2018020600,
-    'qtype_truefalsewiris' => 2018020600
+    'qtype_wq' => 2018030600,
+    'qtype_essaywiris' => 2018030600,
+    'qtype_matchwiris' => 2018030600,
+    'qtype_multianswerwiris' => 2018030600,
+    'qtype_multichoicewiris' => 2018030600,
+    'qtype_shortanswerwiris' => 2018030600,
+    'qtype_truefalsewiris' => 2018030600
 );
