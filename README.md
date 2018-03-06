@@ -1,12 +1,12 @@
-# WIRIS Quizzes local plugin
+# Wiris Quizzes local plugin
 ### Master Build Status
 [![Build Status](https://travis-ci.org/wiris/moodle-local_wirisquizzes.svg?branch=master)](https://travis-ci.org/wiris/moodle-local_wirisquizzes)
 ### Development Build Status
 [![Build Status](https://travis-ci.org/wiris/moodle-local_wirisquizzes.svg?branch=development)](https://travis-ci.org/wiris/moodle-local_wirisquizzes)
 
-This plugin implements a thin wrapper for WIRIS Quizzes question types. WIRIS Quizzes plugin declare all the necessary dependencies on WIRIS Quizzes question types.
+This plugin implements a thin wrapper for Wiris Quizzes question types. Wiris Quizzes plugin declare all the necessary dependencies on Wiris Quizzes question types.
 
-Attempting to install this plugin implicitly pulls all the WIRIS question types.
+Attempting to install this plugin implicitly pulls all the Wiris Quizzes question types.
 
 ## Install instructions
 
@@ -22,4 +22,4 @@ Alternatively, download the zip from <https://github.com/wiris/moodle-local_wiri
 ## License
 
 
-WIRIS Quizzes local plugin is Licensed under the [GNU General Public, License Version 3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+Wiris Quizzes local plugin is Licensed under the [GNU General Public, License Version 3](https://www.gnu.org/licenses/gpl-3.0.en.html).
