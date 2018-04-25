@@ -15,28 +15,30 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Version details for WIIRIS Quizzes local plugin.
- * This plugin declares all the dependencies on all Wiris Quizzes question types.
+ * Privacy class for Wiris Quizzes for Moodle local plugin.
  *
- * @package    local
- * @subpackage wirisquizzes
+ * @package    local_wirisquizzes
  * @copyright  WIRIS Europe (Maths for more S.L)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+namespace local_wirisquizzes\privacy;
+
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2018042600;
+class provider implements
+    // This plugin does not store any personal user data.
+    \core_privacy\local\metadata\null_provider
+{
+    use \core_privacy\local\legacy_polyfill;
 
-$plugin->requires = 2011060313;
-$plugin->maturity = MATURITY_BETA;
-$plugin->component = 'local_wirisquizzes';
-$plugin->dependencies = array(
-    'qtype_wq' => 2018042600,
-    'qtype_essaywiris' => 2018042600,
-    'qtype_matchwiris' => 2018042600,
-    'qtype_multianswerwiris' => 2018042600,
-    'qtype_multichoicewiris' => 2018042600,
-    'qtype_shortanswerwiris' => 2018042600,
-    'qtype_truefalsewiris' => 2018042600
-);
+    /**
+     * Get the language string identifier with the component's language
+     * file to explain why this plugin stores no data.
+     *
+     * @return  string
+     */
+    public static function _get_reason() {
+        return 'privacy:null_reason';
+    }
+}

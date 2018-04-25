@@ -23,4 +23,5 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+$string['privacy:null_reason'] = 'Wiris Quizzes for Moodle local plugin does not effect or store any data itself.';
 $string['pluginname'] = 'Wiris Quizzes for Moodle';
