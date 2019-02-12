@@ -1,8 +1,6 @@
 # Wiris Quizzes local plugin
 ### Master Build Status
 [![Build Status](https://travis-ci.org/wiris/moodle-local_wirisquizzes.svg?branch=master)](https://travis-ci.org/wiris/moodle-local_wirisquizzes)
-### Development Build Status
-[![Build Status](https://travis-ci.org/wiris/moodle-local_wirisquizzes.svg?branch=development)](https://travis-ci.org/wiris/moodle-local_wirisquizzes)
 
 This plugin implements a thin wrapper for Wiris Quizzes question types. Wiris Quizzes plugin declare all the necessary dependencies on Wiris Quizzes question types.
 
