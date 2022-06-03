@@ -26,8 +26,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2022040800;
-$plugin->release = '4.4.3';
+$plugin->version = 2022040801;
+$plugin->release = '4.4.4';
 $plugin->requires = 2011060313;
 $plugin->maturity = MATURITY_STABLE;
 $plugin->component = 'local_wirisquizzes';
