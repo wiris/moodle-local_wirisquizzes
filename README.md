@@ -1,9 +1,8 @@
 # Wiris Quizzes local plugin
 
+This plugin implements a thin wrapper for WirisQuizzes question types. The WirisQuizzes plugin declares all the necessary dependencies for WirisQuizzes question types.
 
-This plugin implements a thin wrapper for Wiris Quizzes question types. Wiris Quizzes plugin declare all the necessary dependencies on Wiris Quizzes question types.
-
-Attempting to install this plugin implicitly pulls all the Wiris Quizzes question types.
+Attempting to install this plugin implicitly pulls all the Wiris question types.
 
 ## Install instructions
 
@@ -19,7 +18,7 @@ Alternatively, download the zip from <https://github.com/wiris/moodle-local_wiri
 
 ## Technical Support
 
-If you have questions or need help integrating MathType, please contact us (support@wiris.com) instead of opening an issue.
+If you have questions or need help integrating WirisQuizzes, please contact us (support@wiris.com) instead of opening an issue.
 
 ## Privacy policy
 
