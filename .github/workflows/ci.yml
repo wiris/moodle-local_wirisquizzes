@@ -24,6 +24,10 @@ jobs:
         database: [pgsql]
 
     steps:
+      - name: Get branch name
+        id: branch-name
+        uses: tj-actions/branch-names@v5.2
+
       - name: Check out repository code
         uses: actions/checkout@v2
         with:
