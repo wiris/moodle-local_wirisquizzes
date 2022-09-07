@@ -26,13 +26,13 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2022061500;
+$plugin->version = 2022090700;
 $plugin->requires = 2015111600; // Moodle 3.0.
-$plugin->release = '4.5.0';
+$plugin->release = '4.5.2';
 $plugin->maturity = MATURITY_STABLE;
 $plugin->component = 'local_wirisquizzes';
 $plugin->dependencies = array(
-    'qtype_wq' => 2022061500,
+    'qtype_wq' => 2022090700,
     'qtype_essaywiris' => 2022061500,
     'qtype_matchwiris' => 2022061500,
     'qtype_multianswerwiris' => 2022061500,
