@@ -26,17 +26,17 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2024032204;
+$plugin->version = 2024032205;
 $plugin->requires = 2015111600; // Moodle 3.0.
-$plugin->release = '4.11.4';
+$plugin->release = '4.11.5';
 $plugin->maturity = MATURITY_STABLE;
 $plugin->component = 'local_wirisquizzes';
 $plugin->dependencies = array(
-    'qtype_wq' => 2024032204,
-    'qtype_essaywiris' => 2024032204,
-    'qtype_matchwiris' => 2024032204,
-    'qtype_multianswerwiris' => 2024032204,
-    'qtype_multichoicewiris' => 2024032204,
-    'qtype_shortanswerwiris' => 2024032204,
-    'qtype_truefalsewiris' => 2024032204
+    'qtype_wq' => 2024032205,
+    'qtype_essaywiris' => 2024032205,
+    'qtype_matchwiris' => 2024032205,
+    'qtype_multianswerwiris' => 2024032205,
+    'qtype_multichoicewiris' => 2024032205,
+    'qtype_shortanswerwiris' => 2024032205,
+    'qtype_truefalsewiris' => 2024032205
 );
