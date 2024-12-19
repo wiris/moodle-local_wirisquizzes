@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->version = 2024121900;
 $plugin->requires = 2015111600; // Moodle 3.0.
-$plugin->release = '4.11.6';
+$plugin->release = '4.12.0';
 $plugin->maturity = MATURITY_STABLE;
 $plugin->component = 'local_wirisquizzes';
 $plugin->dependencies = array(
