@@ -1,6 +1,19 @@
 name: Moodle Plugin CI
 
-on: [push, pull_request]
+# Triggered on push/PR, nightly on a schedule, and on manual dispatch.
+# NOTE: this matrix is legacy (Moodle 3.9-4.0 on ubuntu-18.04) and predates the
+# WirisQuizzes E2E rework; modernising it is tracked separately. The schedule is
+# added here so every plugin participates in the nightly run.
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - "**"
+  schedule:
+    - cron: "0 6 * * *"
 
 jobs:
   test:
